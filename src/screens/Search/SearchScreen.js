@@ -45,10 +45,8 @@ export default class SearchScreen extends React.Component {
           }}
           searchIcond
           clearIcon
-          //lightTheme
           round
           onChangeText={text => params.handleSearch(text)}
-          //onClear={() => params.handleSearch('')}
           placeholder="Search"
           value={params.data}
         />
